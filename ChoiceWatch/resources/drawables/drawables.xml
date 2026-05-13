@@ -1,0 +1,13 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
+    <bitmap id="BackgroundSVG" filename="background.svg" />
+    <bitmap id="MinuteHand" filename="minute_hand.svg" packingFormat="png" />
+    <bitmap id="HourHand" filename="hour_hand.svg" packingFormat="png" />
+    <bitmap id="SecondHand" filename="second_hand.svg" packingFormat="png" />
+    <bitmap id="PersonIcon" filename="person.svg" />
+    <bitmap id="WalkingIcon" filename="walking.svg" />
+    <bitmap id="HeartIcon" filename="heart.svg" />
+    <bitmap id="FootprintIcon" filename="footprint.svg" />
+    <bitmap id="SunriseMarker" filename="sunrise_marker.svg" packingFormat="png" />
+    <bitmap id="SunsetMarker" filename="sunset_marker.svg" packingFormat="png" />
+</drawables>

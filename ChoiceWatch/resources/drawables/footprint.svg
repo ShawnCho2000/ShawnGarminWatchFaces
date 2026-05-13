@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+  <!-- Left Shoe (Behind) -->
+  <g transform="translate(2, 6) scale(0.5)">
+    <path d="M 12 2 C 16 2 18 6 18 12 C 18 15 15 16 12 16 C 9 16 6 15 6 12 C 6 6 8 2 12 2 Z M 12 18 C 15 18 16 19 16 21 C 16 23 15 24 12 24 C 9 24 8 23 8 21 C 8 19 9 18 12 18 Z" fill="none" stroke="#777777" stroke-width="4" />
+  </g>
+  <!-- Right Shoe (Ahead) -->
+  <g transform="translate(10, 2) scale(0.5)">
+    <path d="M 12 2 C 16 2 18 6 18 12 C 18 15 15 16 12 16 C 9 16 6 15 6 12 C 6 6 8 2 12 2 Z M 12 18 C 15 18 16 19 16 21 C 16 23 15 24 12 24 C 9 24 8 23 8 21 C 8 19 9 18 12 18 Z" fill="none" stroke="#777777" stroke-width="4" />
+  </g>
+</svg>
