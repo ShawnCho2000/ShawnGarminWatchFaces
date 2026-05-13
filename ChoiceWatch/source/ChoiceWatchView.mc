@@ -113,6 +113,13 @@ class ChoiceWatchView extends WatchUi.WatchFace {
                 var sunset = null;
 
                 var location = conditions.observationLocationPosition;
+                if (location == null && Toybox has :Position) {
+                    var posInfo = Toybox.Position.getInfo();
+                    if (posInfo != null) {
+                        location = posInfo.position;
+                    }
+                }
+
                 if (location != null) {
                     sunrise = Toybox.Weather.getSunrise(location, now);
                     sunset = Toybox.Weather.getSunset(location, now);
@@ -133,31 +140,26 @@ class ChoiceWatchView extends WatchUi.WatchFace {
                         nextEvent = sunrise.add(new Toybox.Time.Duration(86400));
                         isSunrise = true;
                     }
-                } else {
-                    // Fallback for testing if no location or data: 7:00 AM
-                    var todayInfo = Gregorian.info(now, Time.FORMAT_SHORT);
-                    nextEvent = Gregorian.moment({
-                        :year => todayInfo.year,
-                        :month => todayInfo.month,
-                        :day => todayInfo.day,
-                        :hour => 7,
-                        :minute => 0
-                    });
-                    isSunrise = true;
                 }
 
+                var hour = 7;
+                var min = 0;
+                
                 if (nextEvent != null) {
                     var info = Gregorian.info(nextEvent, Time.FORMAT_SHORT);
-                    var hour = info.hour % 12;
-                    var min = info.min;
-                    var angleDeg = (hour * 30.0) + (min * 0.5);
-                    var angleRad = angleDeg * Math.PI / 180.0;
-
-                    if (isSunrise) {
-                        drawRotatedHand(dc, sunriseMarkerBitmap, cx, cy, angleRad, 12, 208);
-                    } else {
-                        drawRotatedHand(dc, sunsetMarkerBitmap, cx, cy, angleRad, 12, 208);
-                    }
+                    hour = info.hour % 12;
+                    min = info.min;
+                } else {
+                    isSunrise = true;
+                }
+                
+                var angleDeg = (hour * 30.0) + (min * 0.5);
+                var angleRad = angleDeg * Math.PI / 180.0;
+                
+                if (isSunrise) {
+                    drawRotatedHand(dc, sunriseMarkerBitmap, cx, cy, angleRad, 12, 208);
+                } else {
+                    drawRotatedHand(dc, sunsetMarkerBitmap, cx, cy, angleRad, 12, 208);
                 }
             }
         }
@@ -185,12 +187,6 @@ class ChoiceWatchView extends WatchUi.WatchFace {
         // Bottom Sub-dial (Steps)
         drawSubDialArc(dc, cx, cy + dialOffset, dialRadius, stepPercent, Graphics.COLOR_GREEN);
 
-        // Left Sub-dial (Battery)
-        drawSubDialArc(dc, cx - dialOffset, cy, dialRadius, batteryPercent, Graphics.COLOR_YELLOW);
-
-        // --- SUB-DIAL INNER TEXT ---
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-
         var bodyBattery = 0;
         if (Toybox has :SensorHistory && Toybox.SensorHistory has :getBodyBatteryHistory) {
             var bbIter = Toybox.SensorHistory.getBodyBatteryHistory({:period => 1, :order => Toybox.SensorHistory.ORDER_NEWEST_FIRST});
@@ -199,6 +195,14 @@ class ChoiceWatchView extends WatchUi.WatchFace {
                 bodyBattery = bbSample.data;
             }
         }
+        var bodyBatteryPercent = bodyBattery.toFloat() / 100.0;
+        if (bodyBatteryPercent > 1.0) { bodyBatteryPercent = 1.0; }
+
+        // Left Sub-dial (Body Battery Arc)
+        drawSubDialArc(dc, cx - dialOffset, cy, dialRadius, bodyBatteryPercent, Graphics.COLOR_YELLOW);
+
+        // --- SUB-DIAL INNER TEXT ---
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx - dialOffset, cy + 8, Graphics.FONT_XTINY, bodyBattery.format("%d"), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // Bottom Sub-dial (Steps)
