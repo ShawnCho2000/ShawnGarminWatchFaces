@@ -15,10 +15,6 @@ class ChoiceWatchView extends WatchUi.WatchFace {
     private var hourHandBitmap;
     private var secHandBitmap;
     private var textBuffer = null;
-    private var walkingIconBitmap;
-    private var personIconBitmap;
-    private var heartIconBitmap;
-    private var footprintIconBitmap;
     private var sunriseMarkerBitmap;
     private var sunsetMarkerBitmap;
 
@@ -34,10 +30,6 @@ class ChoiceWatchView extends WatchUi.WatchFace {
         minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHand);
         hourHandBitmap = Application.loadResource(Rez.Drawables.HourHand);
         secHandBitmap = Application.loadResource(Rez.Drawables.SecondHand);
-        personIconBitmap = Application.loadResource(Rez.Drawables.PersonIcon);
-        walkingIconBitmap = Application.loadResource(Rez.Drawables.WalkingIcon);
-        heartIconBitmap = Application.loadResource(Rez.Drawables.HeartIcon);
-        footprintIconBitmap = Application.loadResource(Rez.Drawables.FootprintIcon);
         sunriseMarkerBitmap = Application.loadResource(Rez.Drawables.SunriseMarker);
         sunsetMarkerBitmap = Application.loadResource(Rez.Drawables.SunsetMarker);
     }
@@ -198,11 +190,6 @@ class ChoiceWatchView extends WatchUi.WatchFace {
 
         // --- SUB-DIAL INNER TEXT ---
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-
-        // Left Sub-dial (Body Battery)
-        if (personIconBitmap != null) {
-            dc.drawBitmap(cx - dialOffset - 11, cy - 14 - 11, personIconBitmap);
-        }
 
         var bodyBattery = 0;
         if (Toybox has :SensorHistory && Toybox.SensorHistory has :getBodyBatteryHistory) {

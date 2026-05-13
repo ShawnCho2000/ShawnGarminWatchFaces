@@ -6,8 +6,8 @@ A premium, data-rich analog watch face for Garmin devices, specifically optimize
 
 - **Bold Typography:** High-impact hours for quick readability.
 - **Dynamic Sunrise/Sunset Indicator:** A custom-rendered SVG marker points to the time of the next sunrise or sunset event on the outer dial.
-  - 🌅 **Yellow Marker:** Points to the upcoming sunrise.
-  - 🌇 **Orange Marker:** Points to the upcoming sunset.
+  - **Yellow Marker:** Points to the upcoming sunrise.
+  - **Orange Marker:** Points to the upcoming sunset.
 - **Sub-Dials:**
   - **Left Dial:** Battery percentage (with custom person icon).
   - **Bottom Dial:** Daily steps progress.
