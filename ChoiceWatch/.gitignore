@@ -6,7 +6,7 @@ bin/
 gen/
 mir/
 internal-mir/
-*.prg
+# *.prg
 *.prg.debug.xml
 ChoiceWatch-settings.json
 
