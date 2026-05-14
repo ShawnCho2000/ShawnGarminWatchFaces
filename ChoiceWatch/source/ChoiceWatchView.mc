@@ -73,15 +73,39 @@ class ChoiceWatchView extends WatchUi.WatchFace {
             themeTextColor = 0xFFFFF0;
             themeDashedColor = 0x333333;
             themeProgressColor = 0x66001F;
-            themeRadialTextColor = 0xFFFCEF;
+            themeRadialTextColor = 0xF2E8CF;
         } else if (theme == 6) {
             backgroundBitmap = Application.loadResource(Rez.Drawables.BgRedIvory);
             minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandRedIvory);
             hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandRedIvory);
-            themeTextColor = 0xFFFFF0;
-            themeDashedColor = 0x882B52; // Dim Burgundy
-            themeProgressColor = 0xFFFCEF;
+            themeTextColor = 0xF2E8CF; // Cream
+            themeDashedColor = 0xE5989B; // Muted Pink for empty circles
+            themeProgressColor = Graphics.COLOR_TRANSPARENT; // Empty (no colors)
             themeRadialTextColor = 0x66001F; // Burgundy on Cream ring
+        } else if (theme == 7) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgIvoryGreen);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandIvoryGreen);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandIvoryGreen);
+            themeTextColor = 0x0A2E1C; // Dark Green
+            themeDashedColor = 0xCCCCCC; // Light Grey for empty circles on Ivory
+            themeProgressColor = 0x0A2E1C; // Dark Green for progress
+            themeRadialTextColor = 0xF2E8CF; // Cream on Dark Green ring
+        } else if (theme == 8) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgGreenIvory);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandGreenIvory);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandGreenIvory);
+            themeTextColor = 0xF2E8CF; // Cream
+            themeDashedColor = 0xF2E8CF; // Cream for empty circles
+            themeProgressColor = 0xF2E8CF; // Cream for progress
+            themeRadialTextColor = 0x0A2E1C; // Dark Green on Cream ring
+        } else if (theme == 9) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgBlackGreen);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandBlackGreen);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandBlackGreen);
+            themeTextColor = 0xF2E8CF; // Cream
+            themeDashedColor = 0x333333; // Dark Grey for empty circles
+            themeProgressColor = 0x0A2E1C; // Dark Green for progress
+            themeRadialTextColor = 0xF2E8CF; // Cream on Dark Green ring
         } else {
             backgroundBitmap = Application.loadResource(Rez.Drawables.BackgroundSVG);
             minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHand);

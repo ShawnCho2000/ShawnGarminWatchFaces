@@ -1,11 +1,11 @@
 {
     "ivory_red": {
-        "bg": "#FFFCEF",
+        "bg": "#F2E8CF",
         "ring": "#66001f",
         "tick": "#66001f",
         "text": "#66001f",
         "icon": "#66001f",
-        "hand_fill": "#FFFCEF",
+        "hand_fill": "#F2E8CF",
         "hand_stroke": "#66001f"
     },
     "cyberpunk": {
@@ -28,29 +28,56 @@
     },
     "vintage_navy": {
         "bg": "#1B2A47",
-        "ring": "#FFFCEF",
-        "tick": "#FFFCEF",
-        "text": "#FFFCEF",
-        "icon": "#FFFCEF",
+        "ring": "#F2E8CF",
+        "tick": "#F2E8CF",
+        "text": "#F2E8CF",
+        "icon": "#F2E8CF",
         "hand_fill": "#1B2A47",
-        "hand_stroke": "#FFFCEF"
+        "hand_stroke": "#F2E8CF"
     },
     "black_red_ivory": {
         "bg": "#000000",
         "ring": "#66001f",
-        "tick": "#FFFCEF",
-        "text": "#FFFCEF",
-        "icon": "#FFFCEF",
+        "tick": "#F2E8CF",
+        "text": "#F2E8CF",
+        "icon": "#F2E8CF",
         "hand_fill": "#000000",
-        "hand_stroke": "#FFFCEF"
+        "hand_stroke": "#F2E8CF"
     },
     "red_ivory": {
         "bg": "#66001f",
-        "ring": "#FFFCEF",
-        "tick": "#FFFCEF",
-        "text": "#FFFCEF",
-        "icon": "#FFFCEF",
+        "ring": "#F2E8CF",
+        "tick": "#F2E8CF",
+        "text": "#F2E8CF",
+        "icon": "#F2E8CF",
         "hand_fill": "#66001f",
-        "hand_stroke": "#FFFCEF"
+        "hand_stroke": "#F2E8CF"
+    },
+    "ivory_green": {
+        "bg": "#F2E8CF",
+        "ring": "#0A2E1C",
+        "tick": "#0A2E1C",
+        "text": "#0A2E1C",
+        "icon": "#0A2E1C",
+        "hand_fill": "#F2E8CF",
+        "hand_stroke": "#0A2E1C"
+    },
+    "green_ivory": {
+        "bg": "#0A2E1C",
+        "ring": "#F2E8CF",
+        "tick": "#F2E8CF",
+        "text": "#F2E8CF",
+        "icon": "#F2E8CF",
+        "hand_fill": "#0A2E1C",
+        "hand_stroke": "#F2E8CF"
+    },
+    "black_green": {
+        "bg": "#000000",
+        "ring": "#0A2E1C",
+        "tick": "#F2E8CF",
+        "text": "#F2E8CF",
+        "icon": "#F2E8CF",
+        "hand_fill": "#000000",
+        "hand_stroke": "#F2E8CF"
     }
 }

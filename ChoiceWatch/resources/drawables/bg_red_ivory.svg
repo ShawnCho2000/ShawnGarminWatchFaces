@@ -1,114 +1,114 @@
 <svg width="416" height="416" viewBox="0 0 416 416" xmlns="http://www.w3.org/2000/svg">
   <circle cx="208" cy="208" r="208" fill="#66001f" />
-  <circle cx="208" cy="208" r="135" fill="none" stroke="#FFFCEF" stroke-width="30" />
-  <line x1="204" y1="0" x2="204" y2="22" stroke="#FFFCEF" stroke-width="3" transform="rotate(0 208 208)" />
-  <line x1="212" y1="0" x2="212" y2="22" stroke="#FFFCEF" stroke-width="3" transform="rotate(0 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(6 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(12 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(18 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(24 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(30 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(36 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(42 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(48 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(54 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(60 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(66 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(72 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(78 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(84 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(90 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(96 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(102 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(108 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(114 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(120 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(126 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(132 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(138 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(144 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(150 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(156 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(162 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(168 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(174 208 208)" />
-  <line x1="204" y1="0" x2="204" y2="22" stroke="#FFFCEF" stroke-width="3" transform="rotate(180 208 208)" />
-  <line x1="212" y1="0" x2="212" y2="22" stroke="#FFFCEF" stroke-width="3" transform="rotate(180 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(186 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(192 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(198 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(204 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(210 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(216 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(222 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(228 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(234 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(240 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(246 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(252 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(258 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(264 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(270 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(276 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(282 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(288 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(294 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(300 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(306 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(312 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(318 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(324 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="22" stroke="#FFFCEF" stroke-width="4" transform="rotate(330 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(336 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(342 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(348 208 208)" />
-  <line x1="208" y1="0" x2="208" y2="14" stroke="#FFFCEF" stroke-width="2" transform="rotate(354 208 208)" />
+  <circle cx="208" cy="208" r="135" fill="none" stroke="#F2E8CF" stroke-width="30" />
+  <line x1="204" y1="0" x2="204" y2="22" stroke="#F2E8CF" stroke-width="3" transform="rotate(0 208 208)" />
+  <line x1="212" y1="0" x2="212" y2="22" stroke="#F2E8CF" stroke-width="3" transform="rotate(0 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(6 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(12 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(18 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(24 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(30 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(36 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(42 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(48 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(54 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(60 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(66 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(72 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(78 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(84 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(90 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(96 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(102 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(108 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(114 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(120 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(126 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(132 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(138 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(144 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(150 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(156 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(162 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(168 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(174 208 208)" />
+  <line x1="204" y1="0" x2="204" y2="22" stroke="#F2E8CF" stroke-width="3" transform="rotate(180 208 208)" />
+  <line x1="212" y1="0" x2="212" y2="22" stroke="#F2E8CF" stroke-width="3" transform="rotate(180 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(186 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(192 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(198 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(204 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(210 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(216 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(222 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(228 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(234 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(240 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(246 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(252 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(258 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(264 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(270 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(276 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(282 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(288 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(294 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(300 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(306 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(312 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(318 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(324 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="22" stroke="#F2E8CF" stroke-width="4" transform="rotate(330 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(336 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(342 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(348 208 208)" />
+  <line x1="208" y1="0" x2="208" y2="14" stroke="#F2E8CF" stroke-width="2" transform="rotate(354 208 208)" />
   <g transform="rotate(30 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">01</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">01</text>
   </g>
   <g transform="rotate(60 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">02</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">02</text>
   </g>
   <g transform="rotate(90 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">03</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">03</text>
   </g>
   <g transform="rotate(-60 208 208)">
-    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">04</text>
+    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">04</text>
   </g>
   <g transform="rotate(-30 208 208)">
-    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">05</text>
+    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">05</text>
   </g>
   <g transform="rotate(0 208 208)">
-    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">06</text>
+    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">06</text>
   </g>
   <g transform="rotate(30 208 208)">
-    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">07</text>
+    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">07</text>
   </g>
   <g transform="rotate(60 208 208)">
-    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">08</text>
+    <text x="208" y="384.48" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">08</text>
   </g>
   <g transform="rotate(270 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">09</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">09</text>
   </g>
   <g transform="rotate(300 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">10</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">10</text>
   </g>
   <g transform="rotate(330 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">11</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">11</text>
   </g>
   <g transform="rotate(0 208 208)">
-    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#FFFCEF" text-anchor="middle">12</text>
+    <text x="208" y="47.51999999999998" font-family="Impact" font-size="24" letter-spacing="4" fill="#F2E8CF" text-anchor="middle">12</text>
   </g>
   <g transform="translate(208, 118) scale(1.4) translate(-12, -12)">
-    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#FFFCEF" stroke-width="2" />
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#F2E8CF" stroke-width="2" />
   </g>
   <g transform="translate(208, 260) scale(0.025, 0.020) translate(-1635, -983)">
-    <path d="M1547.364,955.372l-177.552,42.892c-55.208-83.756-103.542-213.299-114.634-311.197c-5.21-45.973-4.552-93.223,10.342-137.299c11.046-32.666,32.682-67.013,61.385-84.584c39.85-24.391,91.621-19.685,124.968,4.056c33.348,23.733,53.156,60.495,67.144,97.48C1565.88,690.659,1514.558,792.969,1547.364,955.372z" fill="none" stroke="#FFFCEF" stroke-width="50" />
-    <path d="M1547.364,1238.788c-65.635,18.307-122.336-19.313-139.343-77.958c-16.999-58.645-13.864-123.126-13.864-123.126l161.435-39.44c0,0,34.052,48.357,49.479,104.943C1620.507,1159.8,1612.96,1220.496,1547.364,1238.788z" fill="none" stroke="#FFFCEF" stroke-width="50" />
-    <path d="M1724.148,728.911l177.552,42.892c55.208-83.756,103.542-213.299,114.634-311.197c5.21-45.973-4.552-93.223-10.342-137.299c-11.046-32.666-32.682-67.012-61.385-84.584c-39.85-24.391-91.621-19.685-124.968,4.056c-33.348,23.733-53.156,60.495-67.144,97.48C1705.632,464.197,1756.954,566.508,1724.148,728.911z" fill="none" stroke="#FFFCEF" stroke-width="50" />
-    <path d="M1724.148,1012.326c65.635,18.307,122.336-19.313,139.343-77.958c16.999-58.645-13.864-123.126,13.864-123.126l-161.435-39.44c0,0-34.052,48.357-49.479,104.943C1651.005,933.339,1658.552,994.035,1724.148,1012.326z" fill="none" stroke="#FFFCEF" stroke-width="50" />
+    <path d="M1547.364,955.372l-177.552,42.892c-55.208-83.756-103.542-213.299-114.634-311.197c-5.21-45.973-4.552-93.223,10.342-137.299c11.046-32.666,32.682-67.013,61.385-84.584c39.85-24.391,91.621-19.685,124.968,4.056c33.348,23.733,53.156,60.495,67.144,97.48C1565.88,690.659,1514.558,792.969,1547.364,955.372z" fill="none" stroke="#F2E8CF" stroke-width="50" />
+    <path d="M1547.364,1238.788c-65.635,18.307-122.336-19.313-139.343-77.958c-16.999-58.645-13.864-123.126-13.864-123.126l161.435-39.44c0,0,34.052,48.357,49.479,104.943C1620.507,1159.8,1612.96,1220.496,1547.364,1238.788z" fill="none" stroke="#F2E8CF" stroke-width="50" />
+    <path d="M1724.148,728.911l177.552,42.892c55.208-83.756,103.542-213.299,114.634-311.197c5.21-45.973-4.552-93.223-10.342-137.299c-11.046-32.666-32.682-67.012-61.385-84.584c-39.85-24.391-91.621-19.685-124.968,4.056c-33.348,23.733-53.156,60.495-67.144,97.48C1705.632,464.197,1756.954,566.508,1724.148,728.911z" fill="none" stroke="#F2E8CF" stroke-width="50" />
+    <path d="M1724.148,1012.326c65.635,18.307,122.336-19.313,139.343-77.958c16.999-58.645-13.864-123.126,13.864-123.126l-161.435-39.44c0,0-34.052,48.357-49.479,104.943C1651.005,933.339,1658.552,994.035,1724.148,1012.326z" fill="none" stroke="#F2E8CF" stroke-width="50" />
   </g>
   <g transform="translate(136, 182)">
-    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="none" stroke="#FFFCEF" stroke-width="2" />
+    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="none" stroke="#F2E8CF" stroke-width="2" />
   </g>
 </svg>

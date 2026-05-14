@@ -16,6 +16,9 @@
     <bitmap id="BgVintageNavy" filename="bg_vintage_navy.svg" dithering="none" />
     <bitmap id="BgBlackRedIvory" filename="bg_black_red_ivory.svg" dithering="none" />
     <bitmap id="BgRedIvory" filename="bg_red_ivory.svg" dithering="none" />
+    <bitmap id="BgIvoryGreen" filename="bg_ivory_green.svg" dithering="none" />
+    <bitmap id="BgGreenIvory" filename="bg_green_ivory.svg" dithering="none" />
+    <bitmap id="BgBlackGreen" filename="bg_black_green.svg" dithering="none" />
     
     <bitmap id="HourHandIvoryRed" filename="hour_hand_ivory_red.svg" packingFormat="png" />
     <bitmap id="HourHandCyberpunk" filename="hour_hand_cyberpunk.svg" packingFormat="png" />
@@ -23,6 +26,9 @@
     <bitmap id="HourHandVintageNavy" filename="hour_hand_vintage_navy.svg" packingFormat="png" />
     <bitmap id="HourHandBlackRedIvory" filename="hour_hand_black_red_ivory.svg" packingFormat="png" />
     <bitmap id="HourHandRedIvory" filename="hour_hand_red_ivory.svg" packingFormat="png" />
+    <bitmap id="HourHandIvoryGreen" filename="hour_hand_ivory_green.svg" packingFormat="png" />
+    <bitmap id="HourHandGreenIvory" filename="hour_hand_green_ivory.svg" packingFormat="png" />
+    <bitmap id="HourHandBlackGreen" filename="hour_hand_black_green.svg" packingFormat="png" />
     
     <bitmap id="MinuteHandIvoryRed" filename="minute_hand_ivory_red.svg" packingFormat="png" />
     <bitmap id="MinuteHandCyberpunk" filename="minute_hand_cyberpunk.svg" packingFormat="png" />
@@ -30,4 +36,7 @@
     <bitmap id="MinuteHandVintageNavy" filename="minute_hand_vintage_navy.svg" packingFormat="png" />
     <bitmap id="MinuteHandBlackRedIvory" filename="minute_hand_black_red_ivory.svg" packingFormat="png" />
     <bitmap id="MinuteHandRedIvory" filename="minute_hand_red_ivory.svg" packingFormat="png" />
+    <bitmap id="MinuteHandIvoryGreen" filename="minute_hand_ivory_green.svg" packingFormat="png" />
+    <bitmap id="MinuteHandGreenIvory" filename="minute_hand_green_ivory.svg" packingFormat="png" />
+    <bitmap id="MinuteHandBlackGreen" filename="minute_hand_black_green.svg" packingFormat="png" />
 </drawables>
