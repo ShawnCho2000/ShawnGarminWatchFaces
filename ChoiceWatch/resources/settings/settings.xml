@@ -22,4 +22,15 @@
         <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.Theme" title="Theme">
+        <settingConfig type="list">
+            <listEntry value="0">Default</listEntry>
+            <listEntry value="1">Ivory Red</listEntry>
+            <listEntry value="2">Cyberpunk</listEntry>
+            <listEntry value="3">Tactical Orange</listEntry>
+            <listEntry value="4">Vintage Navy</listEntry>
+            <listEntry value="5">Black Red Ivory</listEntry>
+            <listEntry value="6">Red Ivory</listEntry>
+        </settingConfig>
+    </setting>
 </settings>

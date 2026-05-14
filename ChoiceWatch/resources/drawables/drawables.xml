@@ -10,4 +10,24 @@
     <bitmap id="FootprintIcon" filename="footprint.svg" />
     <bitmap id="SunriseMarker" filename="sunrise_marker.svg" packingFormat="png" />
     <bitmap id="SunsetMarker" filename="sunset_marker.svg" packingFormat="png" />
+    <bitmap id="BgIvoryRed" filename="bg_ivory_red.svg" dithering="none" />
+    <bitmap id="BgCyberpunk" filename="bg_cyberpunk.svg" dithering="none" />
+    <bitmap id="BgTacticalOrange" filename="bg_tactical_orange.svg" dithering="none" />
+    <bitmap id="BgVintageNavy" filename="bg_vintage_navy.svg" dithering="none" />
+    <bitmap id="BgBlackRedIvory" filename="bg_black_red_ivory.svg" dithering="none" />
+    <bitmap id="BgRedIvory" filename="bg_red_ivory.svg" dithering="none" />
+    
+    <bitmap id="HourHandIvoryRed" filename="hour_hand_ivory_red.svg" packingFormat="png" />
+    <bitmap id="HourHandCyberpunk" filename="hour_hand_cyberpunk.svg" packingFormat="png" />
+    <bitmap id="HourHandTacticalOrange" filename="hour_hand_tactical_orange.svg" packingFormat="png" />
+    <bitmap id="HourHandVintageNavy" filename="hour_hand_vintage_navy.svg" packingFormat="png" />
+    <bitmap id="HourHandBlackRedIvory" filename="hour_hand_black_red_ivory.svg" packingFormat="png" />
+    <bitmap id="HourHandRedIvory" filename="hour_hand_red_ivory.svg" packingFormat="png" />
+    
+    <bitmap id="MinuteHandIvoryRed" filename="minute_hand_ivory_red.svg" packingFormat="png" />
+    <bitmap id="MinuteHandCyberpunk" filename="minute_hand_cyberpunk.svg" packingFormat="png" />
+    <bitmap id="MinuteHandTacticalOrange" filename="minute_hand_tactical_orange.svg" packingFormat="png" />
+    <bitmap id="MinuteHandVintageNavy" filename="minute_hand_vintage_navy.svg" packingFormat="png" />
+    <bitmap id="MinuteHandBlackRedIvory" filename="minute_hand_black_red_ivory.svg" packingFormat="png" />
+    <bitmap id="MinuteHandRedIvory" filename="minute_hand_red_ivory.svg" packingFormat="png" />
 </drawables>

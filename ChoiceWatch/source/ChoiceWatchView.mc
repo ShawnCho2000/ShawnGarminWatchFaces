@@ -9,26 +9,94 @@ import Toybox.WatchUi;
 
 class ChoiceWatchView extends WatchUi.WatchFace {
 
-    private var isAwake as Boolean = true;
-    private var backgroundBitmap;
-    private var minHandBitmap;
-    private var hourHandBitmap;
-    private var secHandBitmap;
-    private var textBuffer = null;
-    private var sunriseMarkerBitmap;
-    private var sunsetMarkerBitmap;
+    var isAwake as Boolean = true;
+    var backgroundBitmap;
+    var minHandBitmap;
+    var hourHandBitmap;
+    var secHandBitmap;
+    var textBuffer = null;
+    var sunriseMarkerBitmap;
+    var sunsetMarkerBitmap;
+    var loadedTheme = -1;
+    var themeTextColor = Graphics.COLOR_WHITE;
+    var themeDashedColor = Graphics.COLOR_DK_GRAY;
+    var themeProgressColor = Graphics.COLOR_WHITE;
+    var themeRadialTextColor = Graphics.COLOR_BLACK;
 
     function initialize() {
         WatchFace.initialize();
     }
 
+    function loadThemeResources() {
+        var theme = Application.Properties.getValue("Theme");
+        if (theme == loadedTheme) {
+            return;
+        }
+        loadedTheme = theme;
+
+        if (theme == 1) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgIvoryRed);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandIvoryRed);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandIvoryRed);
+            themeTextColor = 0x66001F;
+            themeDashedColor = 0xCCCCCC; // Light Grey for empty circles on Ivory
+            themeProgressColor = 0x66001F; // Burgundy for progress
+            themeRadialTextColor = 0xFFFCEF; // Cream on Burgundy ring
+        } else if (theme == 2) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgCyberpunk);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandCyberpunk);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandCyberpunk);
+            themeTextColor = 0x00F5FF;
+            themeDashedColor = 0x1C1C1C;
+            themeProgressColor = 0x00F5FF;
+            themeRadialTextColor = 0x00F5FF;
+        } else if (theme == 3) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgTacticalOrange);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandTacticalOrange);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandTacticalOrange);
+            themeTextColor = 0xE0E0E0;
+            themeDashedColor = 0x333333;
+            themeProgressColor = 0xFF6F00;
+            themeRadialTextColor = 0xFF6F00;
+        } else if (theme == 4) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgVintageNavy);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandVintageNavy);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandVintageNavy);
+            themeTextColor = 0xFFFCEF;
+            themeDashedColor = 0x102A43; // Dark Navy for empty circles
+            themeProgressColor = 0xFFFCEF; // Cream for progress
+            themeRadialTextColor = 0x1B2A47; // Dark Navy on Cream ring
+        } else if (theme == 5) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgBlackRedIvory);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandBlackRedIvory);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandBlackRedIvory);
+            themeTextColor = 0xFFFFF0;
+            themeDashedColor = 0x333333;
+            themeProgressColor = 0x66001F;
+            themeRadialTextColor = 0xFFFCEF;
+        } else if (theme == 6) {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BgRedIvory);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHandRedIvory);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHandRedIvory);
+            themeTextColor = 0xFFFFF0;
+            themeDashedColor = 0x882B52; // Dim Burgundy
+            themeProgressColor = 0xFFFCEF;
+            themeRadialTextColor = 0x66001F; // Burgundy on Cream ring
+        } else {
+            backgroundBitmap = Application.loadResource(Rez.Drawables.BackgroundSVG);
+            minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHand);
+            hourHandBitmap = Application.loadResource(Rez.Drawables.HourHand);
+            themeTextColor = Graphics.COLOR_WHITE;
+            themeDashedColor = Graphics.COLOR_DK_GRAY;
+            themeProgressColor = Graphics.COLOR_WHITE;
+            themeRadialTextColor = Graphics.COLOR_BLACK;
+        }
+    }
+
     // Load your resources here
     function onLayout(dc as Graphics.Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
-        backgroundBitmap = Application.loadResource(Rez.Drawables.BackgroundSVG);
-
-        minHandBitmap = Application.loadResource(Rez.Drawables.MinuteHand);
-        hourHandBitmap = Application.loadResource(Rez.Drawables.HourHand);
+        loadThemeResources();
         secHandBitmap = Application.loadResource(Rez.Drawables.SecondHand);
         sunriseMarkerBitmap = Application.loadResource(Rez.Drawables.SunriseMarker);
         sunsetMarkerBitmap = Application.loadResource(Rez.Drawables.SunsetMarker);
@@ -40,6 +108,7 @@ class ChoiceWatchView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Graphics.Dc) as Void {
+        loadThemeResources();
         // Get and format the current date
         var now = Time.now();
         var dateInfo = Gregorian.info(now, Time.FORMAT_SHORT);
@@ -144,7 +213,7 @@ class ChoiceWatchView extends WatchUi.WatchFace {
 
                 var hour = 7;
                 var min = 0;
-                
+
                 if (nextEvent != null) {
                     var info = Gregorian.info(nextEvent, Time.FORMAT_SHORT);
                     hour = info.hour % 12;
@@ -152,10 +221,10 @@ class ChoiceWatchView extends WatchUi.WatchFace {
                 } else {
                     isSunrise = true;
                 }
-                
+
                 var angleDeg = (hour * 30.0) + (min * 0.5);
                 var angleRad = angleDeg * Math.PI / 180.0;
-                
+
                 if (isSunrise) {
                     drawRotatedHand(dc, sunriseMarkerBitmap, cx, cy, angleRad, 12, 208);
                 } else {
@@ -185,7 +254,7 @@ class ChoiceWatchView extends WatchUi.WatchFace {
         dc.setPenWidth(8);
 
         // Bottom Sub-dial (Steps)
-        drawSubDialArc(dc, cx, cy + dialOffset, dialRadius, stepPercent, Graphics.COLOR_GREEN);
+        drawSubDialArc(dc, cx, cy + dialOffset, dialRadius, stepPercent, themeProgressColor);
 
         var bodyBattery = 0;
         if (Toybox has :SensorHistory && Toybox.SensorHistory has :getBodyBatteryHistory) {
@@ -199,17 +268,17 @@ class ChoiceWatchView extends WatchUi.WatchFace {
         if (bodyBatteryPercent > 1.0) { bodyBatteryPercent = 1.0; }
 
         // Left Sub-dial (Body Battery Arc)
-        drawSubDialArc(dc, cx - dialOffset, cy, dialRadius, bodyBatteryPercent, Graphics.COLOR_YELLOW);
+        drawSubDialArc(dc, cx - dialOffset, cy, dialRadius, bodyBatteryPercent, themeProgressColor);
 
         // --- SUB-DIAL INNER TEXT ---
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(themeTextColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx - dialOffset, cy + 8, Graphics.FONT_XTINY, bodyBattery.format("%d"), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // Bottom Sub-dial (Steps)
         dc.drawText(cx, cy + dialOffset + 8, Graphics.FONT_XTINY, steps.toString(), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // --- NEW TOP AREA (Heart Rate Icon & Number) ---
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(themeTextColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, cy - dialOffset + 5, Graphics.FONT_XTINY, hrStr, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // --- NEW RIGHT AREA (Date) ---
@@ -220,12 +289,11 @@ class ChoiceWatchView extends WatchUi.WatchFace {
         var dayStr = nowShort.day.format("%d");
         var dowStr = nowMed.day_of_week.toUpper();
 
-        // DOW in grey
-        dc.setColor(0x777777, Graphics.COLOR_TRANSPARENT);
+        // DOW in theme color
+        dc.setColor(themeTextColor, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx + dialOffset, cy - 12, Graphics.FONT_XTINY, dowStr, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
-        // Month and Day in white
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        // Month and Day in theme color
         dc.drawText(cx + dialOffset, cy + 8, Graphics.FONT_XTINY, monthStr + " " + dayStr, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // --- DRAW TEXT FIELDS ---
@@ -285,14 +353,14 @@ class ChoiceWatchView extends WatchUi.WatchFace {
         }
 
         // Draw a neat center cap covering where the hands meet
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(themeTextColor, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(cx, cy, 6);
-        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(themeDashedColor, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(cx, cy, 3);
     }
 
     // Helper function to draw a vector bitmap rotated perfectly around a pivot point
-    private function drawRotatedHand(dc as Graphics.Dc, bitmap, cx as Number, cy as Number, angle as Float, pivotX as Number, pivotY as Number) as Void {
+    function drawRotatedHand(dc as Graphics.Dc, bitmap, cx as Number, cy as Number, angle as Float, pivotX as Number, pivotY as Number) as Void {
         if (dc has :drawBitmap2) {
             // 1. Move the image so its pivot point is at (0,0)
             var transform = new Graphics.AffineTransform();
@@ -311,7 +379,7 @@ class ChoiceWatchView extends WatchUi.WatchFace {
     }
 
     // Helper to draw text radially along a circle using a buffer (True Character-by-Character Curving)
-    private function drawRadialTextBitmap(dc as Graphics.Dc, text as String, cx as Number, cy as Number, radius as Number, angleRad as Float) as Void {
+    function drawRadialTextBitmap(dc as Graphics.Dc, text as String, cx as Number, cy as Number, radius as Number, angleRad as Float) as Void {
         if (textBuffer != null && dc has :drawBitmap2) {
             var actualBuffer = textBuffer;
             if (textBuffer has :get) {
@@ -352,7 +420,7 @@ class ChoiceWatchView extends WatchUi.WatchFace {
 
                 tdc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
                 tdc.clear();
-                tdc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+                tdc.setColor(themeRadialTextColor, Graphics.COLOR_TRANSPARENT);
                 tdc.drawText(40, 20, Graphics.FONT_XTINY, charStr, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
                 var tx = cx + radius * Math.cos(charAngle);
@@ -383,7 +451,7 @@ class ChoiceWatchView extends WatchUi.WatchFace {
     }
 
     // Helper to get simple weather condition string
-    private function getWeatherConditionString(condition) {
+    function getWeatherConditionString(condition) {
         if (condition == null) { return ""; }
         switch(condition) {
             case 0: return "CLEAR";
@@ -400,13 +468,13 @@ class ChoiceWatchView extends WatchUi.WatchFace {
     }
 
     // Helper to draw a progress arc
-    private function drawSubDialArc(dc as Graphics.Dc, cx as Number, cy as Number, radius as Number, percent as Float, color as Number) as Void {
+    function drawSubDialArc(dc as Graphics.Dc, cx as Number, cy as Number, radius as Number, percent as Float, color as Number) as Void {
         var dashDegrees = 6.0;
         var gapDegrees = 6.0;
         var totalPeriod = dashDegrees + gapDegrees;
 
         // 1. Draw the grey background dashes (Full Circle)
-        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(themeDashedColor, Graphics.COLOR_TRANSPARENT);
         var currentDegree = 90.0;
         for (var i = 0; i < 30; i++) { // 360 / 12 = 30
             var nextDegree = currentDegree - dashDegrees;

@@ -4,4 +4,5 @@
     <property id="ForegroundColor" type="number">0xFF0000</property>
     <property id="UseMilitaryFormat" type="boolean">false</property>
 
+    <property id="Theme" type="number">0</property>
 </properties>

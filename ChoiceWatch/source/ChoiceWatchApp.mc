@@ -21,4 +21,8 @@ class ChoiceWatchApp extends Application.AppBase {
         return [ new ChoiceWatchView() ];
     }
 
+    function onSettingsChanged() as Void {
+        WatchUi.requestUpdate();
+    }
+
 }

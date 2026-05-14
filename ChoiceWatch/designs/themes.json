@@ -1,0 +1,56 @@
+{
+    "ivory_red": {
+        "bg": "#FFFCEF",
+        "ring": "#66001f",
+        "tick": "#66001f",
+        "text": "#66001f",
+        "icon": "#66001f",
+        "hand_fill": "#FFFCEF",
+        "hand_stroke": "#66001f"
+    },
+    "cyberpunk": {
+        "bg": "#000000",
+        "ring": "#1C1C1C",
+        "tick": "#00F5FF",
+        "text": "#00F5FF",
+        "icon": "#00F5FF",
+        "hand_fill": "#000000",
+        "hand_stroke": "#00F5FF"
+    },
+    "tactical_orange": {
+        "bg": "#000000",
+        "ring": "#333333",
+        "tick": "#FF6F00",
+        "text": "#E0E0E0",
+        "icon": "#E0E0E0",
+        "hand_fill": "#000000",
+        "hand_stroke": "#FF6F00"
+    },
+    "vintage_navy": {
+        "bg": "#1B2A47",
+        "ring": "#FFFCEF",
+        "tick": "#FFFCEF",
+        "text": "#FFFCEF",
+        "icon": "#FFFCEF",
+        "hand_fill": "#1B2A47",
+        "hand_stroke": "#FFFCEF"
+    },
+    "black_red_ivory": {
+        "bg": "#000000",
+        "ring": "#66001f",
+        "tick": "#FFFCEF",
+        "text": "#FFFCEF",
+        "icon": "#FFFCEF",
+        "hand_fill": "#000000",
+        "hand_stroke": "#FFFCEF"
+    },
+    "red_ivory": {
+        "bg": "#66001f",
+        "ring": "#FFFCEF",
+        "tick": "#FFFCEF",
+        "text": "#FFFCEF",
+        "icon": "#FFFCEF",
+        "hand_fill": "#66001f",
+        "hand_stroke": "#FFFCEF"
+    }
+}
